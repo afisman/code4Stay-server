@@ -61,7 +61,6 @@ router.put('/edit/:project_id', isAuthenticated, (req, res, next) => {
     const { projectType, hoursPerWeek, minWeeks, description,
         city, country, continent, latitude, longitude, shelterType,
         gallery, mealsIncluded, languagesSpoken, testimonials, projectName } = req.body
-        = req.body
 
     const newInfo = {
         projectType, hoursPerWeek, minWeeks, description,
